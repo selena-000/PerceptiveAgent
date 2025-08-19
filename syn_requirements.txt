@@ -113,8 +113,8 @@ tensorboardX==2.5.1
 threadpoolctl==3.0.0
 tomli==2.0.1
 #torch==1.13.1+cu116
-torchaudio==0.13.1+cu116
-torchvision==0.14.1+cu116
+#torchaudio==0.13.1+cu116
+#torchvision==0.14.1+cu116
 tornado==6.2
 tqdm==4.64.1
 traitlets==5.9.0
