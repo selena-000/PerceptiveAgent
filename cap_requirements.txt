@@ -198,7 +198,7 @@ sacrebleu==2.3.2
 safetensors==0.4.0
 scikit-learn==1.2.2
 scipy==1.10.1
-seamless-communication==1.0.0
+#seamless-communication==1.0.0#danduanzhuang
 semantic-version==2.10.0
 Send2Trash==1.8.2
 sentence-transformers==2.2.2
