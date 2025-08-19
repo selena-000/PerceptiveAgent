@@ -36,7 +36,7 @@ Limited by package compatibility, we create two virtual environments. We recomme
 conda create -n cap38 python=3.8
 conda activate cap38
 
-pip install -r cap_requirement.txt
+pip install -r cap_requirements.txt
 ```
 
 2. Environment of MSMA Synthesizer
@@ -45,7 +45,7 @@ pip install -r cap_requirement.txt
 conda create -n syn38 python=3.8
 conda activate syn38
 
-pip install -r syn_requirement.txt
+pip install -r syn_requirements.txt
 ```
 
 
