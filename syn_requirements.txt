@@ -58,7 +58,7 @@ npy-append-array==0.9.16
 numba==0.53.0
 numpy==1.22.0
 oauthlib==3.2.2
-omegaconf==2.0.6
+#omegaconf==2.0.6
 packaging==23.0
 pandas==1.5.3
 parso==0.8.3
