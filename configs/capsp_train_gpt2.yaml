@@ -3,7 +3,7 @@ model:
   model_type: None
   freeze_imagebind: True
   freeze_qformer: False
-  llama_model: ${ABSOLUTE_PATH_OF_vicuna-7b}
+  llama_model: /data/hxza385/PerceptiveAgent/models/vicuna-7b-v1.5/
   joiner_cfg:
     audio:
       feat_dim: 768
@@ -12,7 +12,7 @@ model:
       freeze_qformer: False
   freeze_wav2vec: True
   gpt2_config: "./configs/capsp_decoder_gpt2.json"
-  bubogpt_q_former_model: ${ABSOLUTE_PATH_OF_bubogpt_7b}
+  bubogpt_q_former_model: /data/hxza385/PerceptiveAgent/models/bubogpt/bubogpt_7b.pth
   prompt_path: "configs/prompts_eg.txt"
 
 
@@ -55,7 +55,7 @@ run:
   iters_per_epoch: 5397
 
   seed: 42
-  output_dir: ${PATH_OF_MODEL_SAVEDIR}
+  output_dir: /data/hxza385/PerceptiveAgent/outputs/
 
   amp: True
   evaluate: False

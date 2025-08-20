@@ -3,7 +3,7 @@ model:
   model_type: None
   freeze_imagebind: True
   freeze_qformer: False
-  llama_model: ${ABSOLUTE_PATH_OF_vicuna-7b}
+  llama_model: /data/hxza385/PerceptiveAgent/models/vicuna-7b-v1.5/
   joiner_cfg:
     audio:
       feat_dim: 768
@@ -16,8 +16,8 @@ model:
   end_sym: "###"
   low_resource: False
   # ckpt: ['models/capsp/gpt_train_with_prompt/checkpoint_4.pth',]
-  ckpt: [${PATH_CKPT},]
-  bubogpt_q_former_model: ${ABSOLUTE_PATH_OF_bubogpt_7b}
+  ckpt: [/data/hxza385/PerceptiveAgent/models/msma_assets/checkpoint_best,]
+  bubogpt_q_former_model: /data/hxza385/PerceptiveAgent/models/bubogpt/bubogpt_7b.pth
   prompt_path: "configs/prompts_eg.txt"
   
 
@@ -34,7 +34,7 @@ datasets:
     data_type: "audio"
     build_info:
       test:
-        storage: ${PATH_OF_DATADIR}
+        storage: /data/hxza385/PerceptiveAgent/test_data/
 
 
 run:
@@ -45,7 +45,7 @@ run:
   report_metric: True
 
   batch_size_eval: 16
-  output_dir: ${OUTPUT_DIR}
+  output_dir: /data/hxza385/PerceptiveAgent/test_outputs/
 
   seed: 42
   num_workers: 4
