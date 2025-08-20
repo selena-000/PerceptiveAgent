@@ -148,10 +148,10 @@ if __name__ == '__main__':
     # sample_test = [416, 653, 2761, 3091, 4623]
     sample_count = 1
     for sample in sample_iterator:
-        if sample_count < 601:
-            print(f"SKIP {sample_count}")
-            sample_count += 1
-            continue
+        #if sample_count < 601:
+            #print(f"SKIP {sample_count}")
+            #sample_count += 1
+            #continue
         # if sample_count not in sample_test:
         #     sample_count += 1
         #     continue
