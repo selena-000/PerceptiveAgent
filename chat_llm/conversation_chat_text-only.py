@@ -27,7 +27,7 @@ def chat_with_response(messages):
 
     client = OpenAI(
         # This is the default and can be omitted
-        api_key=os.environ.get("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"),
+        api_key=os.environ.get("OPENAI_API_KEY"),
     )
 
     response = client.chat.completions.create(
