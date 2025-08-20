@@ -18,9 +18,9 @@ import numpy as np
 import torch
 from scipy.io.wavfile import write
 
-from synthesizer.utils import AttrDict
-from synthesizer.examples.pretrain.dataset_example import InferenceCodeDataset
-from synthesizer.examples.pretrain.models_example import MultiSpkrMultiStyleCodeGenerator
+from utils import AttrDict
+from examples.pretrain.dataset_example import InferenceCodeDataset
+from examples.pretrain.models_example import MultiSpkrMultiStyleCodeGenerator
 from tqdm import tqdm
 
 h = None
