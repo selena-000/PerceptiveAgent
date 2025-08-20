@@ -8,7 +8,6 @@
 
 import argparse
 import json
-import sys
 import os
 import random
 import time
@@ -18,7 +17,7 @@ import librosa
 import numpy as np
 import torch
 from scipy.io.wavfile import write
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
 from utils import AttrDict
 from examples.pretrain.dataset_example import InferenceCodeDataset
 from examples.pretrain.models_example import MultiSpkrMultiStyleCodeGenerator
